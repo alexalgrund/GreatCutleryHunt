@@ -3,7 +3,7 @@ import sqlite3
 from random import randint
 from playsound import playsound
 
-class Main:
+class CutleryHunt:
 
     def __init__(self):
         pygame.init()
@@ -411,4 +411,4 @@ class Main:
         exit()
     
 if __name__ == "__main__":
-    Main()
+    CutleryHunt()
